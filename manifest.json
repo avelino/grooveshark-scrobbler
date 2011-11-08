@@ -1,0 +1,23 @@
+{
+  "name": "Grooveshark Scrobbler",
+  "version": "1.0.3",
+  "description": "Scrobbling to Last.fm from Grooveshark.",
+  "background_page": "background.html",
+  "options_page": "options.html",	
+  "icons": { 
+     "16": "gss16.png",	
+     "48": "gss48.png",		
+     "128": "gss128.png" },	
+  "page_action": {	       
+    "default_icon": "gss48g.png",
+    "default_title": "Grooveshark Scrobbler"
+  },
+  "permissions": [
+    "tabs",
+    "http://grooveshark.com/",
+    "http://preview.grooveshark.com/",
+    "http://last.fm/",
+    "http://ws.audioscrobbler.com/",
+    "http://ugotpewpewd.net/"
+  ]
+}
